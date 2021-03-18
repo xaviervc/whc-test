@@ -1,0 +1,13 @@
+{
+    "name": "xavier/whc-test",
+    "description": "Proramming test for WHC",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Xavier Vani-Charron",
+            "email": "xavier.vani@gmail.com"
+        }
+    ]
+}
