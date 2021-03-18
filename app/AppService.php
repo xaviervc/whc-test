@@ -59,7 +59,7 @@ class AppService
                 return ['errors' => ['Invalid arguments to sort.']];
             
             sort($args);
-            return $args;
+            return ['success' => [$args]];
         }
 
         if(Commands::RepoDesc() === $method)
